@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PACKAGES</title>
+    <style>
+        .packagebackground{
+            background: rgba(0,0,0,0.7) url(photos/bg.jpg);
+            background-size: cover;
+            background-blend-mode: darken;
+            padding-bottom: 20px;
+        }
+
+        .container{
+            display: flex;
+            gap: 20px; 
+        }
+        .home{
+            display: block;
+            font-size: 18px;
+            color:bisque;
+            transition: 0.3s;
+            padding-left: 250px;
+        }
+
+        .home1{
+            display: block;
+            font-size: 18px;
+            color:bisque;
+            transition: 0.3s;
+            padding-left: 250px;
+            
+        }
+        .section1 {
+            flex: 1; /* This makes each section take up equal space */
+            border: 1px;
+            padding: 20px;
+            box-sizing: border-box; /* Ensures padding is included in width */
+            background-color: black;
+        }
+        .section2 {
+            flex: 1; /* This makes each section take up equal space */
+            border: 1px;
+            padding: 20px;
+            box-sizing: border-box; /* Ensures padding is included in width */
+            background-color: black;
+        }
+        .heading{
+            color: white; 
+            padding-left: 670px; 
+            padding-top: 30px;
+        }
+
+        .subheading1{
+            color: cornflowerblue; 
+            padding-right: 300px; 
+            padding-left: 100px;
+        }
+        .subheading2{
+            color: cornflowerblue; 
+            padding-left: 230px;
+        }
+
+        .subheading3{
+            color:  cornflowerblue; padding-left: 530px;
+        }
+
+        .subheading4{
+            color:  cornflowerblue; padding-left: 600px;
+        }
+        
+        .bulletpoints1{
+            color: antiquewhite;
+        }
+
+        .bulletpoints2{
+            color: antiquewhite;
+            padding-left: 200px;
+        }
+        .itenaryclass{
+            color:lavenderblush; padding-left: 700px;
+        }
+        .pointsclass1{
+            font-size: small;
+            color:antiquewhite;
+        }
+        ul.custom-bullets {
+            list-style: none; /* Remove default bullet points */
+            padding: 0; /* Remove padding from the list */
+        }
+
+        ul.custom-bullets li::before {
+            content: "• "; /* Custom bullet point character */
+            color: #ff6347; /* Optional: change bullet color */
+            font-weight: bold; /* Optional: change bullet weight */
+            margin-right: 8px; /* Space between bullet and text */
+        }
+
+        .couplephoto{
+            display: inline-block;
+        }
+        
+        @media only screen and (max-width :1400px){
+
+            html,body{
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                overflow-x:hidden ;
+            }
+            .packagebackground{
+            background: rgba(0,0,0,0.7) url(photos/bg.jpg);
+            background-size: cover;
+            background-blend-mode: darken;
+            max-width: 1400px;
+            overflow-x:hidden ;
+            }
+
+            .heading{
+                color: color(from color srgb r g b);
+                padding-left: 100px;
+                padding-top: 0px;
+            }
+            
+            .subheading2{
+                padding-left: 0%;
+                font-size: 22px;
+                font-weight: normal;
+                color: black;
+            }
+            .container{
+                flex-direction:column;
+            }
+            .home{
+                color: black;
+                padding-left: 10px;
+            }
+            .home1{
+                color: black;
+                padding-left: 10px;
+            }
+
+
+            .bulletpoints1{
+                padding-left: 0px;
+                color: black;
+            }
+
+
+            .bulletpoints2{
+                padding-left: 0px;
+                color: black;
+            }
+            .section1{
+                
+                margin-bottom: 20px;
+                font-size: 0.9rem;
+                background-color:plum;
+                font-size: smaller;
+            }
+            .section2{
+                
+                margin-bottom: 20px;
+                font-size: 0.9rem;
+                background-color:plum;
+                font-size: smaller;
+            }
+
+            .subheading3{
+                border: 2px solid white;
+                padding-left: 10px;
+                color: darkseagreen;
+            }
+            .subheading4{
+                border: 2px solid white;
+                padding-left: 10px;
+                color: bisque;
+            }
+
+            .itenaryclass{
+                padding-left: 170px;
+                color: bisque;
+            }
+            .pointsclass1{
+                font-size:x-small;
+                background-color:bisque;
+                color:black;
+            }
+            .couplephoto{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+            .couplephoto img{
+                max-width: 100%;
+            }
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    
+        <section class="packagebackground">
+        <h1 class="heading">TOP - PACKAGES</h1>
+        <div class="container">
+            <div class="section1">
+                <h1 class="subheading2" ><b>2 Nights 3 Days Package</b></h1>
+                <a class="home" href="#home"><b>READ FULL ITENARY</b></a>
+
+                <ul class="bulletpoints1">
+                <li><h3>Traditional welcome with Drink on arrival</h3></li>
+                <li><h3>Accommodation in Super Deluxe Room with balcony</h3></li>
+                <li><h3>Complimentary Breakfast & dinner</h3></li>
+                <li><h3>Pickup& Drop : Day (01) Half day sightseeing.</h3></li>
+                <li><h3>Day (02) Full day Sight Seeing</h3></li>
+                <li><h3>Morning walk/ soft trekking with guide</h3></li>
+                <li><h3>One day Lunch</h3></li>
+                <li><h3>Candlelight Dinner</h3></li>
+                <li><h3>Bonfire once in a stay</li>
+                <li><h3>Flower Bed Decoration with Jasmine and Rose Petals</h3></li>
+                <li><h3>Honeymoon Cake</h3></li>
+                <li><h3>Fruit Basket in the room</h3></li>
+                <li><h3>Chocolates and Cookies</h3></li>
+                <li><h3>Badam milk once in a stay</h3></li>
+                </ul>
+            </div>
+        
+
+            <div class="section2">
+                <h1 class="subheading2"><b>3 Nights 4 Days Package</b></h1>
+                <a class="home1" href="#home1"><b>READ FULL ITENARY</b></a>
+                <ul class="bulletpoints2">
+                <li><h3>Traditional welcome with drink on arrival.</h3></li>
+                <li><h3>Accommodation in Super Deluxe room with balcony.</h3></li>
+                <li><h3>Complimentary Breakfast & dinner.</h3></li>
+                <li><h3>First day lunch.</h3></li>
+                <li><h3>Pickup & Drop: Day ( 01) Half day sight seeing.</h3></li>
+                <li><h3>Day (02) Full day sight seeing.</h3></li>
+                <li><h3>Morning walk and soft trekking with guide.</h3></li>
+                <li><h3>Dinner (One Night Candlelight Dinner).</h3></li>
+                <li><h3>Bonfire once in a stay.</h3></li>
+                <li><h3>Flower Bed Decoration with Jasmine and Rose Petals.</h3></li>
+                <li><h3>Honeymoon Cake.</h3></li>
+                <li><h3>Chocolates and Cookies.</h3></li>
+                <li><h3>Fruit Basket in the room.</h3></li>
+                <li><h3>Chocolates and Cookies.</h3></li>
+                <li><h3>Mocktail Drinks.</h3></li>
+                <li><h3>Free Wi-Fi during stay.</h3></li>
+            </div>
+            
+        </div>
+        <h2 class="subheading3"><b><b>2 Nights 3 Days Group Package</b></b></h2> 
+        <h3 class="itenaryclass" >ITENARY</h3>
+        <div class="pointsclass1">
+        <h2>Day 01 : Check in ,Half day sightseeing and bonfire Pick up from Cochin International Airport/railway station.Check in to Chithirapuram Palace by 1 PM Have lunch from our restaurant and go for half day sightseeing covering Chengulam Dam boating,Chithirapuram view point , nearby view points and waterfalls. Come back to the bungalow and enjoy bonfire . Have dinner at our restaurant and overnight stay.
+        </h2>
+        <h2>Day 02: Full day Munnar sightseeing After breakfast go for full day sightseeing in and around Munnar covering Hydel park,Eravikulam national park ( were the Neelakurinji flowers blooms ) ,Mattupetty dam,Photo points, Honey Bee Net,Shooting points,Flower Garden visit and Tea Museum visit . Come back to the Palace in the evening . and have dinner at our restaurant .
+        </h2>
+        <h2>Day 03: After breakfast check out from the resort and drop to Airport/Railway station or bus station.
+        </h2>
+        <h2>Check in time: 12 PM
+        </h2>
+        <h2>Check out time: 11 AM
+        </h2>
+        <h2>Early check in can provide as per the availability.
+        </h2>
+        <h2>Minimum number of guests required : 12
+        </h2>
+        <h2>Maximum number of guests required : 18
+        </h2>
+    </div>
+
+    <h2 class="subheading4" ><b>2 Nights 3 Days Package</b></h2> 
+        <h3 class="itenaryclass">ITENARY</h3>
+        <div class="pointsclass1" id="home">
+        <h2>Day 01 : Check in ,Half day sightseeing and bonfire Pick up from Cochin International Airport/railway station.Check in to Chithirapuram Palace by 1 PM Have lunch from our restaurant and go for half day sightseeing covering Chengulam Dam boating,Chithirapuram view point , nearby view points and waterfalls. Come back to the bungalow and enjoy bonfire . Have dinner at our restaurant and overnight stay.
+        </h2>
+        <h2>Day 02: Full day Munnar sightseeing After breakfast go for full day sightseeing in and around Munnar covering Hydel park,Eravikulam national park ( were the Neelakurinji flowers blooms ) ,Mattupetty dam,Photo points, Honey Bee Net,Shooting points,Flower Garden visit and Tea Museum visit . Come back to the Palace in the evening . and have dinner at our restaurant .
+        </h2>
+        <h2>Day 03: After breakfast check out from the resort and drop to Airport/Railway station or bus station.
+        </h2>
+        <h2>Check in time: 12 PM
+        </h2>
+        <h2>Check out time: 11 AM
+        </h2>
+        <h2>Early check in can provide as per the availability.
+
+    </div>
+
+    <h2 class="subheading4" ><b>3 Nights 4 Days Package</b></h2> 
+        <h3 class="itenaryclass">ITENARY</h3>
+        <div class="pointsclass1"  id="home1">
+        <h2>Day 01 : Pick up , Check in &Small Evening trip to nearby places Pick up from Cochin International Airport /Railway station or Bus Station on arrival and check in to Chithirapuram Palace .Evening go for a small trip to the nearby places covering Chithirapuram View Point ,Photo Points , Tea Garden visit etc.. Enjoy Cultural program or go to near by Adventure parks (with own expense ). Come back to the Palace and enjoy Bonfire . Candle light dinner will be provided as per your choice ( in your room/ at our restaurant /open area ) . Overnight stay</h2>
+
+        <h2>Day 02: Full day Munnar sightseeing , Candlelight dinner and flower bed decoration After breakfast go for full day sightseeing in and around Munnar covering Hydel Park ,Eravikulam National Park ( were the Neelakurinji flowers blooms ) ,Mattupetty Dam , Photo points , Honey Bee Net, Shooting points, Flower Garden visit and Tea Museum visit . Come back to the palace and have Candlelight dinner along with honeymoon cake . Your bed will be decorated with flowers so enjoy the night stay.</h2>
+
+        <h2>Day 03: Full day sight seeing in Munnar After breakfast go for a walk inside Tea Garden and Soft trekking to the nearby mountain . Go for sightseeing covering Chengulam dam boating, Attukad water falls, Karadippara view point, photo points, Tea garden visit etc.. Come back to the Palace enjoy bonfire, candlelight dinner .Badam milk will be provided in the room . Overnight stay</h2>
+
+        <h2>Day 04: Check out and drop After breakfast check out from the palace and proceed to Cochin airport/railway station / bus station to catch your bus.</h2>
+
+        <h2>Check in time: 12 PM</h2>
+
+        <h2>Check out time: 11 AM</h2>
+        
+        <h2>Early check in can provide as per the availability.</h2>
+ 
+    </div>
+</section>
+<br>
+<br>
+<br>
+<br>
+        <section class="couplephoto">
+            <img src="photos/package1.jpg" >
+            <img src="photos/package2.jpg" >
+            <img src="photos/package3.jpg" >
+        </section>
+        <section class="booking">
+            <h4>1. 2 Nights 3 Days</h4>
+            <h4>2. 3 Nights 4 Days</h4>
+            <h4>3. 2 Nights 3 Days Group</h4>
+            <h2>SELECT ANY PACKAGE YOU WANT:</h2>
+            <h3>NAME:<input type="text" name="name:" id="name"></h3>
+            <h3>EMAIL ID:<input type="email" name="email" id="email"></h3>
+            <h3>PACKAGE NUMBER: <input type="number" name="package" id="package"></h3>
+            <button>SUBMIT</button>
+        </section>
+</body>
+</html>
